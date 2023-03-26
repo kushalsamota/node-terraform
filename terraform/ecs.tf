@@ -41,7 +41,7 @@ resource "aws_ecs_task_definition" "td" {
 
   cpu                = "256"
   memory             = "512"
-  network_mode       = "awsvpc"
+  network_mode       = "bridge"
   task_role_arn      = "arn:aws:iam::474268949660:role/ecsTaskExecutionRole"
   execution_role_arn = "arn:aws:iam::474268949660:role/ecsTaskExecutionRole"
 }

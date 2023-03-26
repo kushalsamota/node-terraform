@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:474268949660:task-definition/app:4",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:474268949660:task-definition/app",
     "containerDefinitions": [
         {
             "name": "app",
@@ -23,7 +23,6 @@
     "taskRoleArn": "arn:aws:iam::474268949660:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::474268949660:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 4,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [

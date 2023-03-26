@@ -4,8 +4,8 @@
         {
             "name": "app",
             "image": "474268949660.dkr.ecr.us-east-2.amazonaws.com/app_repo",
-            "cpu": 1000,
-            "memory": 2048,
+            "cpu": 512,
+            "memory": 1024,
             "portMappings": [
                 {
                     "containerPort": 80,
@@ -51,8 +51,8 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "cpu": "1000",
-    "memory": "2048",
+    "cpu": "512",
+    "memory": "1024",
     "registeredAt": "2023-03-26T11:32:19.561Z",
     "registeredBy": "arn:aws:iam::474268949660:user/ankush",
     "tags": []
